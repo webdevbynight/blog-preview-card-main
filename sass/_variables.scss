@@ -1,0 +1,36 @@
+@charset "utf-8";
+
+// Variables
+:root {
+    // Colours and backgrounds
+    --primary-background: #f4d04e;
+    --card-background: white;
+    --tag-background: #f4d04e;
+    --primary-text: #111;
+    --secondary-text: #7f7f7f;
+    --tertiary-text: #f4d04e;
+    
+    // Blog card
+    --card-outer-margin: 2.4rem;
+    --card-padding: 2.3rem;
+    --card-border-width: 1px;
+    --card-corner: 2rem;
+    --card-shadow: .8rem .8rem black;
+    --card-min-width: calc(32rem - 2 * var(--card-outer-margin) - 2 * var(--card-border-width)) - 2 * var(--card-padding);
+    --card-max-width: calc(38.4rem - 2 * var(--card-border-width) - 2 * var(--card-padding));
+    --card-proportional-width: calc(100dvw * 279 / 375);
+    --card-big-gap: 2.4rem;
+    --card-small-gap: 1.2rem;
+    --card-title-min: 2rem;
+    --card-title-max: 2.4rem;
+    --card-title-proportional: calc(100vw * 20 / 375);
+    --card-text-min: 1.4rem;
+    --card-text-max: 1.6rem;
+    --card-text-proportional: calc(100vw * 14 / 375);
+    --card-small-text-min: 1.2rem;
+    --card-small-text-max: 1.4rem;
+    --card-small-text-proportional: calc(100vw * 12 / 375);
+    --card-tag-block-padding: .4rem;
+    --card-tag-inline-padding: 1.2rem;
+    --card-tag-corner: .4rem;
+}
